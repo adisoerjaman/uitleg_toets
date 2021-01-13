@@ -1,0 +1,19 @@
+header {
+    background-color: $primary-color;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: $font-stack;
+    ul {
+        display: flex;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0 15px;
+    }
+}
